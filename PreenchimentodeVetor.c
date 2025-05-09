@@ -1,14 +1,13 @@
 #include <stdio.h>
-
 int main() {
 
-int N[10];
-int V;
-int i;
+  int N[10];
+  int V;
+  int i;
 
   scanf("%d", &V);
 
-N[0] = V;
+  N[0] = V;
 
        for(int i = 1; i < 10; i++) {//isso aq para preencher o vetor
           N[i] = N[i-1] * 2; 
@@ -20,5 +19,4 @@ N[0] = V;
        }
 
        return 0
-
-          }
+}

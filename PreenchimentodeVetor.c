@@ -18,5 +18,5 @@ int main() {
           printf("N[%d] = %d\n", i, N[i]);
        }
 
-       return 0
+       return 0;
 }
